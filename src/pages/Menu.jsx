@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { Stack, TextField, MenuItem, Button, Typography } from "@mui/material";
 import { Navigate } from "react-router-dom";
 import { LanguageContext } from "../context/languageContext";
+import Footer from "../components/Footer";
 
 export default function Menu() {
   const {
@@ -75,6 +76,7 @@ export default function Menu() {
       <Button variant="contained" onClick={handleSubmit}>
         Começar
       </Button>
+      <Footer />
     </Stack>
   );
 }

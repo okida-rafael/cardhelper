@@ -3,6 +3,7 @@ import { Stack, ButtonGroup, Button, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../context/languageContext";
 import dados from "../../data/dados";
+import Footer from "../components/Footer";
 
 const Game = () => {
   const {
@@ -71,6 +72,7 @@ const Game = () => {
           Menu
         </Button>
       </Link>
+      <Footer />
     </Stack>
   );
 };
