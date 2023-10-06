@@ -1,11 +1,21 @@
 .rotation {
     transition: all 0.5s;
     transform: rotateY(360deg);
+    
+
   }
 
 .noRotation {
     transition: all 0.5s;
     transform: rotateY(0deg);
+    
 }
 
+#bg-card {
+  background-image: url('src/assets/textura.jpg');
+}
+
+#root {
+  background: linear-gradient(#e3f2fd, #ffb84d54);
+}
 

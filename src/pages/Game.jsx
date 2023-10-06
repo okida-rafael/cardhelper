@@ -40,10 +40,11 @@ const Game = () => {
         alignItems={"center"}
         p={1}
         className={cardRotation}
+        id="bg-card"
       >
-        <Stack direction={"row"} spacing={35}>
-          <Typography alignSelf={"flex-start"}>#{counter + 1}</Typography>
-          <Typography alignSelf={"flex-end"}>
+        <Stack direction={"row"} justifyContent={"space-between"} width={'100%'}>
+          <Typography component={'div'}>#{counter + 1}</Typography>
+          <Typography component={'div'}>
             {linguagem.toUpperCase()}
           </Typography>
         </Stack>
