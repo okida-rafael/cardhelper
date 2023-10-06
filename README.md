@@ -1,8 +1,9 @@
-# React + Vite
+# React + Vite + Material UI 
+## useContext, useState
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação que simula cards para aprender outra língua.
 
-Currently, two official plugins are available:
+Português, inglês e espanhol.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
