@@ -12,7 +12,7 @@
 }
 
 #bg-card {
-  background-image: url('src/assets/textura.jpg');
+  background-image: url('/assets/textura.jpg');
 }
 
 #root {
