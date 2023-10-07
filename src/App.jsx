@@ -7,7 +7,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { CssBaseline } from '@mui/material';
-import Footer from "./components/Footer";
+
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Route path="/" element={<Menu/>}></Route>
         <Route path="/game" element={<Game />}></Route>
       </Routes>
-      <Footer />
+
     </>
   );
 }
