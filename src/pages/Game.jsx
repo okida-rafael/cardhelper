@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Stack, ButtonGroup, Button, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import { LanguageContext } from "../context/languageContext";
+import { LanguageContext } from "../context/LanguageContext";
 import dados from "../../data/dados";
 import Footer from "../components/Footer";
 

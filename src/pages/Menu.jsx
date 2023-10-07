@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Stack, TextField, MenuItem, Button, Typography } from "@mui/material";
 import { Navigate } from "react-router-dom";
-import { LanguageContext } from "../context/languageContext";
+import { LanguageContext } from "../context/LanguageContext";
 import Footer from "../components/Footer";
 
 export default function Menu() {
