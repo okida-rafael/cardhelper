@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { Stack, TextField, MenuItem, Button, Typography } from "@mui/material";
+import { Stack, TextField, MenuItem, Button, Typography, Box } from "@mui/material";
 import { Link, Navigate } from "react-router-dom";
 import { LanguageContext } from "../context/LanguageContext";
 import Footer from "../components/Footer";
@@ -77,10 +77,24 @@ export default function Menu() {
         Começar
       </Button>
       <Link to="/prova" style={{ textDecoration: "none" }}>
-        <Button variant="outlined" style={{ width: "100%" }}>Prova de Vocabulário</Button>
+        <Button variant="outlined" style={{ width: "100%" }} startIcon={
+          <Box
+            component="img"
+            src="/assets/prova/vocabulario.png"
+            sx={{ width: 48, height: 48, objectFit: "contain" }}
+            alt="Vocabulário"
+          />
+        }>Prova de Vocabulário</Button>
       </Link>
       <Link to="/cores" style={{ textDecoration: "none" }}>
-        <Button variant="outlined" style={{ width: "100%" }}>Aprenda Cores</Button>
+        <Button variant="outlined" style={{ width: "100%" }} startIcon={
+          <Box
+            component="img"
+            src="/assets/prova/cores.png"
+            sx={{ width: 48, height: 48, objectFit: "contain" }}
+            alt="Cores"
+          />
+        }>Aprenda Cores</Button>
       </Link>
       <Footer />
     </Stack>
