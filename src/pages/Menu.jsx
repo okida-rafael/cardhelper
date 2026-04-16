@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Stack, TextField, MenuItem, Button, Typography } from "@mui/material";
-import { Navigate } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { LanguageContext } from "../context/LanguageContext";
 import Footer from "../components/Footer";
 
@@ -76,6 +76,9 @@ export default function Menu() {
       <Button variant="contained" onClick={handleSubmit}>
         Começar
       </Button>
+      <Link to="/prova" style={{ textDecoration: "none" }}>
+        <Button variant="outlined" style={{ width: "100%" }}>Prova de Vocabulário</Button>
+      </Link>
       <Footer />
     </Stack>
   );
