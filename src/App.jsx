@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Game from "./pages/Game";
 import Menu from "./pages/Menu";
 import Prova from "./pages/Prova";
+import Cores from "./pages/Cores";
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Menu/>}></Route>
         <Route path="/game" element={<Game />}></Route>
         <Route path="/prova" element={<Prova />}></Route>
+        <Route path="/cores" element={<Cores />}></Route>
       </Routes>
 
     </>

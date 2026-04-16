@@ -79,6 +79,9 @@ export default function Menu() {
       <Link to="/prova" style={{ textDecoration: "none" }}>
         <Button variant="outlined" style={{ width: "100%" }}>Prova de Vocabulário</Button>
       </Link>
+      <Link to="/cores" style={{ textDecoration: "none" }}>
+        <Button variant="outlined" style={{ width: "100%" }}>Aprenda Cores</Button>
+      </Link>
       <Footer />
     </Stack>
   );
